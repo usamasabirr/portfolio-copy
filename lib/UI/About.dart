@@ -29,7 +29,7 @@ class About extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     return Container(
       height: size.height,
-      width:size.width - 100,
+      width: size.width - 100,
       child: Row(
         children: [
           //About me
@@ -77,14 +77,14 @@ class About extends StatelessWidget {
                   children: [
                     CustomText(
                       text:
-                          "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\n\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n\n",
+                          "Hello! I'm Usama, a Freelancer based in Lahore, PAK.\n\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n\n",
+                          "With 2.5 years of experience in creating cross-platform applications using Flutter, I'm dedicated to delivering high-quality and engaging user experiences. I specialize in building intuitive user interfaces with Flutter's widget-based approach and have a keen eye for UI design. I have worked on projects of varying complexity, including Push Notifications, Sockets,  . These experiences have equipped me with the skills to handle state management, data integration through RESTful APIs, and seamless user interactions.In addition to Flutter, I'm proficient in Dart, the programming language behind it, and have hands-on experience with technologies like Firebase for backend integration. I am always open to learning new tools and frameworks that enhance the development process and improve app performance.\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
@@ -103,7 +103,7 @@ class About extends StatelessWidget {
                 Container(
                   height: size.height * 0.15,
                   width: size.width,
-                  child: Wrap(  
+                  child: Wrap(
                     children: [
                       Container(
                         width: size.width * 0.20,
@@ -113,7 +113,7 @@ class About extends StatelessWidget {
                             technology(context, "Dart"),
                             technology(context, "Flutter"),
                             technology(context, "Firebase"),
-                            technology(context, "UI/UX (Adobe Xd)"),
+                            technology(context, "Mongo Db"),
                           ],
                         ),
                       ),
@@ -122,10 +122,10 @@ class About extends StatelessWidget {
                         height: size.height * 0.15,
                         child: Column(
                           children: [
-                            technology(context, "C/C++, Java."),
-                            technology(context, "HTML & (S)CSS"),
+                            technology(context, "Node.js"),
+                            technology(context, "Express"),
                             technology(context, "MYSQL"),
-                            technology(context, "Git - Github"),
+                            technology(context, "Kotlin"),
                           ],
                         ),
                       )

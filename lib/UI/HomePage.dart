@@ -359,28 +359,29 @@ class _HomePageState extends State<HomePage> {
                                         height: size.height * 0.04,
                                       ),
                                       FeatureProject(
-                                        imagePath: "images/pic9.jpg",
+                                        imagePath: "images/zeerac/1.png",
                                         ontab: () {
                                           method.launchURL(
                                               "https://github.com/champ96k/WhatsApp--UI-Clone");
                                         },
                                         projectDesc:
-                                            "A Mobile app for both Android and IOS. View your Status, Chat, and call history. The purpose of this projcet is to Learn Flutter complex UI Design.",
-                                        projectTitle: "WhatsaApp UI Clone",
+                                            "It is a user-friendly mobile app designed for buying and selling properties, providing a seamless platform for users to explore real estate listings and connect with potential buyers or sellers.",
+                                        projectTitle: "Zeerac",
                                         tech1: "Flutter",
                                         tech2: "Dart",
                                         tech3: "Flutter UI",
                                       ),
 
                                       FeatureProject(
-                                        imagePath: "images/pic2.jpg",
+                                        imagePath:
+                                            "images/rentwheel/rentwheel.png",
                                         ontab: () {
                                           method.launchURL(
                                               "https://github.com/champ96k/Flutter-Blog-App-using-Firebase");
                                         },
                                         projectDesc:
-                                            "A blog application using Flutter and firebase, In this project implement Firebase CURD operation, User can add post as well see all the post.",
-                                        projectTitle: "Blog Application",
+                                            'Developed a Flutter-based mobile application for vehicle rental services.Implemented a user-friendly interface allowing users to easily navigate and access various features.Incorporated a secure user registration and login system to ensure data privacy and authentication.Integrated a comprehensive vehicle catalog, enabling users to browse and search for available rental options.Included a booking system that allows users to select preferred dates, times, and vehicle types for their rentals.',
+                                        projectTitle: "Rent Wheel",
                                         tech1: "Dart",
                                         tech2: "Flutter",
                                         tech3: "Firebase",
