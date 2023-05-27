@@ -137,7 +137,7 @@ class About extends StatelessWidget {
           ),
 
           //Profile Image
-          Expanded(
+          /*Expanded(
             child: Container(
               height: size.height / 1.5,
               width: size.width / 2 - 100,
@@ -158,11 +158,12 @@ class About extends StatelessWidget {
                       ),
                     ),
                   ),
-                  CustomImageAnimation()
+                  //TODO add your own image
+                  //CustomImageAnimation()
                 ],
               ),
             ),
-          ),
+          ),*/
         ],
       ),
     );

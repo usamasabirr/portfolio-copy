@@ -132,7 +132,7 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                       ),
-                      Padding(
+                      /*Padding(
                         padding: const EdgeInsets.symmetric(vertical: 16.0),
                         child: Card(
                           elevation: 4.0,
@@ -170,7 +170,7 @@ class _HomePageState extends State<HomePage> {
                             //   ),
                           ),
                         ),
-                      ),
+                      ),*/
                     ],
                   ),
                 ),
@@ -190,38 +190,38 @@ class _HomePageState extends State<HomePage> {
                             color: Color(0xffffA8B2D1),
                             iconSize: 16.0,
                             onPressed: () {
-                              method.launchURL("https://github.com/champ96k");
+                              method.launchURL("https://github.com/meltro21");
                             }),
-                        IconButton(
+                        /*IconButton(
                             icon: FaIcon(FontAwesomeIcons.twitter),
                             color: Color(0xffffA8B2D1),
                             iconSize: 16.0,
                             onPressed: () {
                               method.launchURL("https://twitter.com/champ_96k");
-                            }),
+                            }),*/
                         IconButton(
                           icon: FaIcon(FontAwesomeIcons.linkedin),
                           color: Color(0xffffA8B2D1),
                           onPressed: () {
                             method.launchURL(
-                                "https://www.linkedin.com/in/tushar-nikam-a29a97131/");
+                                "https://www.linkedin.com/in/usama-sabir-70405619b/");
                           },
                           iconSize: 16.0,
                         ),
-                        IconButton(
+                        /* IconButton(
                             icon: Icon(Icons.call),
                             color: Color(0xffffA8B2D1),
                             iconSize: 16.0,
                             onPressed: () {
                               method.launchCaller();
-                            }),
-                        IconButton(
+                            }),*/
+                        /*IconButton(
                             icon: Icon(Icons.mail),
                             color: Color(0xffffA8B2D1),
                             iconSize: 16.0,
                             onPressed: () {
                               method.launchEmail();
-                            }),
+                            }),*/
                         Padding(
                           padding: const EdgeInsets.only(top: 16.0),
                           child: Container(
@@ -371,7 +371,6 @@ class _HomePageState extends State<HomePage> {
                                         tech2: "Dart",
                                         tech3: "Flutter UI",
                                       ),
-
                                       FeatureProject(
                                         imagePath:
                                             "images/rentwheel/rentwheel.png",
@@ -387,7 +386,7 @@ class _HomePageState extends State<HomePage> {
                                         tech3: "Firebase",
                                       ),
 
-                                      FeatureProject(
+                                      /*FeatureProject(
                                         imagePath: "images/pic3.png",
                                         ontab: () {
                                           method.launchURL(
@@ -854,7 +853,7 @@ class _HomePageState extends State<HomePage> {
                                         tech1: "Dart",
                                         tech2: "Flutter Wen",
                                         tech3: "Flutter UI",
-                                      ),
+                                      ),*/
                                     ],
                                   )),
 
@@ -963,7 +962,7 @@ class _HomePageState extends State<HomePage> {
                                           100,
                                       //color: Colors.white,
                                       child: Text(
-                                        "Designed & Built by Tushar Nikam 💙 Flutter",
+                                        "Designed & Built by Usama Sabir 💙 Flutter",
                                         style: TextStyle(
                                           color: Colors.white.withOpacity(0.4),
                                           letterSpacing: 1.75,
@@ -990,7 +989,7 @@ class _HomePageState extends State<HomePage> {
                         RotatedBox(
                           quarterTurns: 45,
                           child: Text(
-                            "tusharnikam2021@gmail.com",
+                            "usamasabir4321@gmail.com",
                             style: TextStyle(
                               color: Colors.grey.withOpacity(0.6),
                               letterSpacing: 3.0,
