@@ -6,6 +6,8 @@ import 'package:potrtfolio/Widget/CustomText.dart';
 import 'package:potrtfolio/Widget/MobileProject.dart';
 import 'package:potrtfolio/Widget/MobileWork.dart';
 
+import '../Widget/Workbox.dart';
+
 class MobileHome extends StatefulWidget {
   @override
   _MobileHomeState createState() => _MobileHomeState();
@@ -40,41 +42,41 @@ class _MobileHomeState extends State<MobileHome> {
     final Size size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Color(0xff0A192F),
-      endDrawer: Drawer(
-          elevation: 6.0,
-          child: Column(
-            children: [
-              UserAccountsDrawerHeader(
-                  currentAccountPicture: CircleAvatar(
-                    child: Icon(Icons.person),
-                  ),
-                  accountName: Text("Tushar Nikam"),
-                  accountEmail: Text("champ96k@gmail.com")),
-              ListTile(
-                title: Text("Share"),
-                leading: Icon(Icons.share),
-              ),
-              ListTile(
-                leading: Icon(Icons.group),
-                title: Text("About"),
-              ),
-              Expanded(
-                child: Text("Version 1.0.1"),
-              )
-            ],
-          )),
-      appBar: AppBar(
-        backgroundColor: Color(0xff0A192F),
-        elevation: 0.0,
-        title: IconButton(
-          icon: Icon(
-            Icons.change_history,
-            size: 32.0,
-            color: Color(0xff64FFDA),
-          ),
-          onPressed: () {},
-        ),
-      ),
+      // endDrawer: Drawer(
+      //     elevation: 6.0,
+      //     child: Column(
+      //       children: [
+      //         UserAccountsDrawerHeader(
+      //             currentAccountPicture: CircleAvatar(
+      //               child: Icon(Icons.person),
+      //             ),
+      //             accountName: Text("Tushar Nikam"),
+      //             accountEmail: Text("champ96k@gmail.com")),
+      //         ListTile(
+      //           title: Text("Share"),
+      //           leading: Icon(Icons.share),
+      //         ),
+      //         ListTile(
+      //           leading: Icon(Icons.group),
+      //           title: Text("About"),
+      //         ),
+      //         Expanded(
+      //           child: Text("Version 1.0.1"),
+      //         )
+      //       ],
+      //     )),
+      // appBar: AppBar(
+      //   backgroundColor: Color(0xff0A192F),
+      //   elevation: 0.0,
+      //   title: IconButton(
+      //     icon: Icon(
+      //       Icons.change_history,
+      //       size: 32.0,
+      //       color: Color(0xff64FFDA),
+      //     ),
+      //     onPressed: () {},
+      //   ),
+      // ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -95,7 +97,7 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.02,
               ),
               CustomText(
-                text: "Tushar Nikam.",
+                text: "Usama Sabir.",
                 textsize: 52.0,
                 color: Color(0xffCCD6F6),
                 fontWeight: FontWeight.w900,
@@ -117,7 +119,7 @@ class _MobileHomeState extends State<MobileHome> {
                 child: Wrap(
                   children: [
                     Text(
-                      "I'm a freelancer based in Nashik, IN specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.",
+                      "I'm a freelancer based in Pakistan, specialized in \nbuilding (and occasionally designing) exceptional websites, \napplications, and everything in between.",
                       style: TextStyle(
                         color: Colors.grey,
                         fontSize: 15.0,
@@ -213,7 +215,7 @@ class _MobileHomeState extends State<MobileHome> {
                         children: [
                           CustomText(
                             text:
-                                "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n",
+                                "Hello! I'm Usama, a Freelancer based in Lahore, PAK.\n\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n\n",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -221,7 +223,7 @@ class _MobileHomeState extends State<MobileHome> {
                           ),
                           CustomText(
                             text:
-                                "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n",
+                                "\nWith 2.5 years of experience in creating cross-platform applications using Flutter, I'm dedicated to delivering high-quality and engaging user experiences. I specialize in building intuitive user interfaces with Flutter's widget-based approach and have a keen eye for UI design. I have worked on projects of varying complexity, including Push Notifications, Sockets,  . These experiences have equipped me with the skills to handle state management, data integration through RESTful APIs, and seamless user interactions.In addition to Flutter, I'm proficient in Dart, the programming language behind it, and have hands-on experience with technologies like Firebase for backend integration. I am always open to learning new tools and frameworks that enhance the development process and improve app performance.\n\n",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -280,44 +282,44 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.08,
               ),
 
-              //Image
-              Center(
-                child: Container(
-                  height: size.height * 0.6,
-                  width: size.width * 0.7,
-                  child: Stack(
-                    children: [
-                      Positioned(
-                        top: 50,
-                        right: 20,
-                        left: 50.0,
-                        child: Card(
-                          color: Color(0xff61F9D5),
-                          child: Container(
-                            margin: EdgeInsets.all(2.75),
-                            height: size.height * 0.45,
-                            width: size.width * 0.66,
-                            color: Color(0xff0A192F),
-                          ),
-                        ),
-                      ),
-                      Container(
-                        height: size.height * 0.5,
-                        width: size.width * 0.6,
-                        child: Image(
-                          fit: BoxFit.cover,
-                          image: AssetImage("images/pic1.jpeg"),
-                        ),
-                      ),
-                      Container(
-                        height: size.height * 0.5,
-                        width: size.width * 0.6,
-                        color: Color(0xff61F9D5).withOpacity(0.5),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+              // //Image
+              // Center(
+              //   child: Container(
+              //     height: size.height * 0.6,
+              //     width: size.width * 0.7,
+              //     child: Stack(
+              //       children: [
+              //         Positioned(
+              //           top: 50,
+              //           right: 20,
+              //           left: 50.0,
+              //           child: Card(
+              //             color: Color(0xff61F9D5),
+              //             child: Container(
+              //               margin: EdgeInsets.all(2.75),
+              //               height: size.height * 0.45,
+              //               width: size.width * 0.66,
+              //               color: Color(0xff0A192F),
+              //             ),
+              //           ),
+              //         ),
+              //         Container(
+              //           height: size.height * 0.5,
+              //           width: size.width * 0.6,
+              //           child: Image(
+              //             fit: BoxFit.cover,
+              //             image: AssetImage("images/pic1.jpeg"),
+              //           ),
+              //         ),
+              //         Container(
+              //           height: size.height * 0.5,
+              //           width: size.width * 0.6,
+              //           color: Color(0xff61F9D5).withOpacity(0.5),
+              //         ),
+              //       ],
+              //     ),
+              //   ),
+              // ),
 
               //Where I've Worked title
               Row(
@@ -349,7 +351,14 @@ class _MobileHomeState extends State<MobileHome> {
                 ],
               ),
 
-              MobileWork(),
+              //Where I have worked
+              SizedBox(
+                height: size.height * 0.07,
+              ),
+              Container(
+                height: size.height * 0.5,
+                child: WorkBox(),
+              ),
 
               SizedBox(
                 height: size.height * 0.07,

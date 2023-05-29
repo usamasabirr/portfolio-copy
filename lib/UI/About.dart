@@ -61,7 +61,7 @@ class About extends StatelessWidget {
                       width: size.width * 0.01,
                     ),
                     Container(
-                      width: size.width / 4,
+                      width: size.width / 5,
                       height: 1.10,
                       color: Color(0xff303C55),
                     ),
