@@ -77,6 +77,7 @@ class _MobileHomeState extends State<MobileHome> {
       //     onPressed: () {},
       //   ),
       // ),
+      //sin
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
